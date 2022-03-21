@@ -1,0 +1,37 @@
+• Clicking employee button will redirect to 404 - DONE
+• Start Date with Hotwork - fix the date - DONE
+• text fields that needs to input text should only accept text - DONE
+• text fields that needs to input numbers should only accept numbers - DONE
+• remove save button upper right corner (redundant) - DONE
+• Diplomas / Certificates - data should show in personal detail page - DONE
+• Option to upload Resume or CV file
+• Enlarge viewing of images uploaded in requirements
+• All requirements should have an option for download per requirement
+• Requirements should have delete button
+• Curriculum vitae once cancel should route to http://localhost/cms_v2/employee/view
+• http://localhost/cms_v2/employee/view - change create button to " add " 
+
+
+PLEASE DOUBLE CHECK
+
+• Freelancer text in index.php (bold) 
+• User should have the option to change password - DONE
+• Don't have an account? Please contact Mr. Taniza (Do this Instead: Don't have an account? Please send a request at warren.taniza@hotwork.ag) - DONE
+• Welcome, Mike Jr.s ( Do this instead: Welcome (firstname)! )
+• Change Picture Alert change to Successfully updated! - DONE
+• FML Names ( should not accept numbers ) - DONE
+• Personal Email ( Should restrict to email only ) - DONE
+• Mobile Number (should only accept numbers)- DONE
+• Site Deployment - should be text field
+• bpi tin sss pagibig ph - should not accept text, numbers only
+• Job History ( deleting alert should be red)
+• Sending email for survey form should have an alert that email has been sent successfully.
+• Survey list should be ascending
+• name on the upper right corner should show the image of the user
+• Download should display PDF and has the option to print
+• Requirements - remove button should be removed.
+•  bpi tin sss pagibig ph should be moved to requirements when updating or adding.
+• Requirements should have delete button
+• If freelancer logout - it should be redirected here http://localhost/cms_v2/login/login_freelancer
+• Whatever is in Employee should be in Freelancer
+• All requirements should have an option for download per requirement

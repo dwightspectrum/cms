@@ -1,0 +1,1 @@
+export const onClickClassesListener = (classes, callback) => Array.from(classes).forEach((element) => element.addEventListener('click', callback));

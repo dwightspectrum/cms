@@ -1,0 +1,12 @@
+Hi Franco,
+
+Booking Reference Number : {{BOOKING_REFERENCE_NUMBER}}
+Passenger: {{PASSENGER}}
+ROUTE : {{ROUTE}}
+Return Date : {{RETURN_DATE}}
+Return Time : {{RETURN_TIME}}
+
+Thank you very much.
+
+Best Regards,
+Administration

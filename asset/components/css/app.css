@@ -1,0 +1,170 @@
+.top-left-part{
+	border-right: 0px !important; 
+}
+
+.new-login-register .lg-info-panel {
+    background: url(../plugins/images/login-register.jpg) center center/cover no-repeat !important;
+}
+
+.sidebar{
+	left: 0;
+	transition: left 0.5s ease-out !important;
+}
+
+.hide-sidebar .sidebar{
+	left: -240px;
+	transition: left 0.5s ease-out !important;
+}
+
+.tabs-style-flip {
+	 max-width: 2000px !important;
+	 margin: 0 auto;
+}
+
+/*----------------------------SHAKE ICON------------------------------*/
+
+.btn_animate {
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+
+  from{
+  	background-color: transparent;
+  }
+
+  to{
+  	background: #d82e55;
+  }
+}
+
+
+.close-modal-create {
+  background: #f3f3f3 !important;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.close-modal-create span {
+  text-shadow: none;
+  color: #000c;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.custom-modal .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.custom-modal .modal-header:after, .custom-modal .modal-header:before {
+  content: none;
+}
+
+.custom-modal .close-modal-create {
+  background: #f3f3f3 !important;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.custom-modal .close-modal-create span {
+  text-shadow: none;
+  color: #000c;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.custom-modal .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.custom-modal .modal-header:after, .modal-header:before {
+  content: none;
+}
+
+.custom-modal .preview_profile {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.edit_preview_profile_wrapper {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.badge {
+  background-color: #c30c2e !important;
+  margin-top: 5px;
+}
+
+/*----------------------------SHAKE ICON------------------------------*/
+
+.notif_animate {
+    animation: shake .9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        -webkit-transform: rotate(35deg);
+    }
+
+    12.5% {
+        -webkit-transform: rotate(-30deg);
+    }
+
+    25% {
+        -webkit-transform: rotate(25deg);
+    }
+
+    37.5% {
+        -webkit-transform: rotate(-20deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(15deg);
+    }
+
+    62.5% {
+        -webkit-transform: rotate(-10deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
